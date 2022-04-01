@@ -81,7 +81,6 @@ median1
 averageSteps <- aggregate(steps~interval, data, mean)
 head(averageSteps)
 ```
-
 ```
 ##   interval   steps
 ## 1        0 1.71698

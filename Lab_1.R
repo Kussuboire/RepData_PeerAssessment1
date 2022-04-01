@@ -62,7 +62,6 @@ hist(sumdata$steps, col = "blue"
      , xlab = "Steps"
      , main = "Total Number of Steps Per Day (with the missing data filled in)")
 
-#7. Calculate and report the mean and median
 mean2 <- mean(sumdata$steps)
 mean2
 median2 <- median(sumdata$steps)
